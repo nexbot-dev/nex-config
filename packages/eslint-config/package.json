@@ -1,7 +1,7 @@
 {
   "name": "@nexbot-dev/eslint-config",
   "version": "0.0.1",
-  "description": "A list of configuration for nexbot projects",
+  "description": "A package to easily reuse eslint config for all NexBot projects",
   "author": "NexBot Team @nexbot-dev",
   "license": "GPL-3.0",
   "packageManager": "yarn@3.5.1",
