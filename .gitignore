@@ -1,5 +1,8 @@
-# Dependency directories
+# dependency directories
 node_modules/
+
+# output directories
+dist/
 
 # yarn v2
 .yarn/cache
