@@ -28,5 +28,17 @@
 		"eslint",
 		"eslint-config",
 		"typescript"
+	],
+  "homepage": "https://github.com/nexbot-dev/nex-config/tree/main/packages/eslint-config",
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/nexbot-dev/nex-config.git",
+		"directory": "packages/eslint-config"
+	},
+  "bugs": {
+		"url": "https://github.com/nexbot-dev/nex-config/issues"
+	},
+  "files": [
+		"dist/"
 	]
 }
