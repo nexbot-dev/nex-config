@@ -25,10 +25,8 @@
 		"nexbot-dev",
     "nexbot-config",
 		"nexbot",
-		"discord",
-		"bot",
-		"ts",
-		"typescript",
-		"yarn"
+		"eslint",
+		"eslint-config",
+		"typescript"
 	]
 }
