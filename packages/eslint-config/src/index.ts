@@ -13,7 +13,6 @@ export default {
 		'node': true,
 		'es6': true,
 		'es2020': true,
-		'esnext': true,
 		'jest': true,
 	},
 	'parserOptions': {
