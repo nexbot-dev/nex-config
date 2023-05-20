@@ -1,5 +1,5 @@
 {
-  "name": "@nexbot-dev/eslint-config",
+  "name": "@nexbot/eslint-config",
   "version": "1.0.0",
   "description": "A package to easily reuse eslint config for all NexBot projects",
   "author": "NexBot Team @nexbot-dev",
