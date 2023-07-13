@@ -2,8 +2,8 @@
   "name": "@nexbot/eslint-config",
   "version": "1.0.1",
   "description": "A package to easily reuse eslint config for all NexBot projects",
-  "author": "NexBot Team @nexbot-dev",
-  "license": "GPL-3.0",
+  "author": "@nexbot",
+  "license": "Apache-2.0",
   "packageManager": "yarn@3.5.1",
   "main": "dist/index.js",
   "scripts": {
@@ -12,33 +12,34 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.59.6",
     "@typescript-eslint/parser": "^5.59.6",
-    "eslint": "^8.40.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
     "typescript": "^5.0.4"
   },
   "devDependencies": {
-    "tsup": "^6.7.0"
+    "tsup": "^7.1.0"
   },
   "publishConfig": {
-		"access": "public"
-	},
+    "access": "public"
+  },
   "keywords": [
-		"nexbot-dev",
+    "nexbot-dev",
     "nexbot-config",
-		"nexbot",
-		"eslint",
-		"eslint-config",
-		"typescript"
-	],
+    "nexbot",
+    "eslint",
+    "eslint-config",
+    "typescript"
+  ],
   "homepage": "https://github.com/nexbot-dev/nex-config/tree/main/packages/eslint-config",
   "repository": {
-		"type": "git",
-		"url": "git+https://github.com/nexbot-dev/nex-config.git",
-		"directory": "packages/eslint-config"
-	},
+    "type": "git",
+    "url": "git+https://github.com/nexbot-dev/nex-config.git",
+    "directory": "packages/eslint-config"
+  },
   "bugs": {
-		"url": "https://github.com/nexbot-dev/nex-config/issues"
-	},
+    "url": "https://github.com/nexbot-dev/nex-config/issues"
+  },
   "files": [
-		"dist/"
-	]
+    "dist/"
+  ]
 }
