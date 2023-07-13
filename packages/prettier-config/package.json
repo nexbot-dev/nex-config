@@ -1,0 +1,41 @@
+{
+  "name": "@nexbot/prettier-config",
+  "version": "1.0.0",
+  "description": "A package to easily reuse prettier config for all NexBot projects",
+  "author": "@nexbot",
+  "license": "Apache-2.0",
+  "packageManager": "yarn@3.5.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "prettier": "^3.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^7.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "nexbot-dev",
+    "nexbot-config",
+    "nexbot",
+    "prettier",
+    "prettier-config",
+    "typescript"
+  ],
+  "homepage": "https://github.com/nexbot-dev/nex-config/tree/main/packages/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexbot-dev/nex-config.git",
+    "directory": "packages/prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/nexbot-dev/nex-config/issues"
+  },
+  "files": [
+    "dist/"
+  ]
+}
