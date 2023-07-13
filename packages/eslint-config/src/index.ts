@@ -1,75 +1,57 @@
 export default {
-	'root': true,
-	'parser': '@typescript-eslint/parser',
-	'plugins': [
-		'@typescript-eslint',
-	],
-	'extends': [
-		'eslint:recommended',
-		'plugin:@typescript-eslint/eslint-recommended',
-		'plugin:@typescript-eslint/recommended',
-	],
-	'env': {
-		'node': true,
-		'es6': true,
-		'es2020': true,
-		'jest': true,
+	root: true,
+	parser: '@typescript-eslint/parser',
+	plugins: ['@typescript-eslint'],
+	extends: ['eslint:recommended', 'plugin:@typescript-eslint/eslint-recommended', 'plugin:@typescript-eslint/recommended', 'prettier'],
+	env: {
+		node: true,
+		es6: true,
+		es2020: true,
+		jest: true,
 	},
-	'parserOptions': {
-		'ecmaVersion': 'latest',
-		'sourceType': 'module',
+	parserOptions: {
+		ecmaVersion: 'latest',
+		sourceType: 'module',
 	},
-	'rules': {
+	rules: {
 		'arrow-spacing': [
 			'warn',
 			{
-				'before': true,
-				'after': true,
+				before: true,
+				after: true,
 			},
 		],
 		'brace-style': [
 			'error',
 			'stroustrup',
 			{
-				'allowSingleLine': true,
+				allowSingleLine: true,
 			},
 		],
-		'comma-dangle': [
-			'error',
-			'always-multiline',
-		],
+		'comma-dangle': ['error', 'always-multiline'],
 		'comma-spacing': 'error',
 		'comma-style': 'error',
-		'curly': [
-			'error',
-			'multi-line',
-			'consistent',
-		],
-		'dot-location': [
-			'error',
-			'property',
-		],
+		'curly': ['error', 'multi-line', 'consistent'],
+		'dot-location': ['error', 'property'],
 		'handle-callback-err': 'off',
 		'indent': [
 			'error',
 			'tab',
 			{
-				'ignoredNodes': [
-					'PropertyDefinition',
-				],
+				ignoredNodes: ['PropertyDefinition'],
 			},
 		],
 		'keyword-spacing': 'error',
 		'max-nested-callbacks': [
 			'error',
 			{
-				'max': 4,
+				max: 4,
 			},
 		],
 		'max-statements-per-line': [
 			'error',
 			{
-				'max': 2,
+				max: 2,
 			},
 		],
 		'no-console': 'off',
@@ -81,45 +63,30 @@ export default {
 		'no-multiple-empty-lines': [
 			'error',
 			{
-				'max': 2,
-				'maxEOF': 1,
-				'maxBOF': 0,
+				max: 2,
+				maxEOF: 1,
+				maxBOF: 0,
 			},
 		],
 		'no-shadow': [
 			'error',
 			{
-				'allow': [
-					'err',
-					'resolve',
-					'reject',
-				],
+				allow: ['err', 'resolve', 'reject'],
 			},
 		],
-		'no-trailing-spaces': [
-			'error',
-		],
+		'no-trailing-spaces': ['error'],
 		'no-var': 'error',
-		'object-curly-spacing': [
-			'error',
-			'always',
-		],
+		'object-curly-spacing': ['error', 'always'],
 		'prefer-const': 'error',
-		'quotes': [
-			'error',
-			'single',
-		],
-		'semi': [
-			'error',
-			'always',
-		],
+		'quotes': ['error', 'single'],
+		'semi': ['error', 'always'],
 		'space-before-blocks': 'error',
 		'space-before-function-paren': [
 			'error',
 			{
-				'anonymous': 'never',
-				'named': 'never',
-				'asyncArrow': 'always',
+				anonymous: 'never',
+				named: 'never',
+				asyncArrow: 'always',
 			},
 		],
 		'space-in-parens': 'error',
