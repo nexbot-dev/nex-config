@@ -1,15 +1,15 @@
 {
   "name": "nex-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A list of configuration for nexbot projects",
   "private": true,
   "repository": "https://github.com/nexbot-dev/nex-config.git",
-  "author": "@nexbot-dev",
+  "author": "@nexbot",
   "license": "Apache-2.0",
   "packageManager": "yarn@3.5.1",
   "scripts": {
-    "test": "echo 1",
-    "lint": "eslint --fix --ext .ts packages"
+    "lint": "eslint --fix --ext .ts packages",
+    "format": "prettier --write \"packages/**/*.ts\""
   },
   "workspaces": [
     "packages/*"
@@ -17,7 +17,9 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.59.6",
     "@typescript-eslint/parser": "^5.59.6",
-    "eslint": "^8.40.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^3.0.0",
     "typescript": "^5.0.4"
   }
 }
