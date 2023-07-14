@@ -4,7 +4,7 @@
   "description": "A list of configuration for nexbot projects",
   "private": true,
   "repository": "https://github.com/nexbot-dev/nex-config.git",
-  "author": "@nexbot",
+  "author": "@nexbot-dev",
   "license": "Apache-2.0",
   "packageManager": "yarn@3.5.1",
   "scripts": {

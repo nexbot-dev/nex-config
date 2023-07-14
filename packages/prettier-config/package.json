@@ -2,7 +2,7 @@
   "name": "@nexbot/prettier-config",
   "version": "1.0.0",
   "description": "A package to easily reuse prettier config for all NexBot projects",
-  "author": "@nexbot",
+  "author": "@nexbot-dev",
   "license": "Apache-2.0",
   "packageManager": "yarn@3.5.1",
   "main": "dist/index.js",
